@@ -11,9 +11,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun ExploreScreen() {
+fun SettingsScreen() {
     Box(modifier = Modifier.fillMaxSize().background(color = Color.Magenta),
         contentAlignment = Alignment.Center) {
-        Text(text = "Explore Screen", fontSize = 48.sp)
+        Text(text = "Settings Screen", fontSize = 48.sp)
     }
 }
